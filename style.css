@@ -1,0 +1,211 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Playwrite GB S", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+.header{
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    width: 150px;
+    height: 150px;
+}
+.navlinks{
+    padding: 40px;
+}
+.navlinks>a{
+    margin-right: 40px;
+    font-size: 30px;
+    color: black;
+    text-decoration: none;
+    font-weight: bolder;
+    transition: font-size 1s;
+}
+.navlinks>a:hover{
+    font-size: 45px;
+}
+#home{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.desc{
+    padding: 50px;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+}
+.desc>a{
+    background-color: black;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    text-decoration: none;
+    width: fit-content;
+}
+#username{
+    color: brown;
+}
+.imgcontainer{
+    position: relative;
+}
+#img1{
+    width: 100%;
+}
+#about{
+    padding: 30px;
+    font-size: 30px;
+}
+#about>h1{
+    margin-top: 30px;
+    margin-bottom: 25px;
+    margin-left: 40%;
+    font-weight: bolder;
+}
+.aboutcontainer{
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.aboutinfo{
+    font-size: 20px;
+    padding-left: 30px;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    text-align: justify;
+    line-height: 30px;
+}
+.aboutimg{
+    position: relative;
+}
+#img2{
+    width: 100%;
+}
+.navlinks{
+    padding: 40px;
+}
+.navlinks>a{
+    margin-right: 40px;
+    font-size: 30px;
+    color: black;
+    text-decoration: none;
+    font-weight: bolder;
+    transition: font-size 1s;
+}
+.navlinks>a:hover{
+    font-size: 45px;
+}
+#skills{
+    padding: 20px;
+    font-size: 30px;
+    
+}
+#skills>h1{
+    margin-top: 30px;
+    margin-bottom: 25px;
+    margin-left: 40%;
+    font-weight: bolder;
+    font-size: 40px;
+    
+}
+.skillcontainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.languages{
+    border: 1px solid black;
+    height: 280px;
+    width: 200px;
+    border-radius: 20px;
+    align-content: center;
+    font-size: 20px;
+    
+}
+.frontend{
+    border: 1px solid black;
+    height: 280px;
+    width: 200px;
+    border-radius: 20px;
+    align-content: center;
+    font-size: 20px;
+}
+.backend{
+    border: 1px solid black;
+    height: 280px;
+    width: 200px;
+    border-radius: 20px;
+    align-content: center;
+    font-size: 20px;
+}
+#contact{
+    padding: 30px;
+    font-size: 30px;
+    background: rgb(138, 121, 102);
+}
+#contact>h1{
+    margin-top: 40px;
+    margin-bottom: 25px;
+    margin-left: 35%;
+    font-weight: bolder;
+    
+
+}
+.contactcontainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around
+}
+.cntctno{
+    padding: 50px;
+   
+}
+.mobile{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 20px;
+    font-weight: lighter;
+}
+.email{
+    padding: 50px;
+    /* border: 2px solid black;
+    border-radius: 8px; */
+}
+.emailid{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 20px;
+    font-weight: lighter;
+}
+.linkedin{
+    padding: 50px;
+    /* border: 2px solid black;
+    border-radius: 8px; */
+}
+.lnkdnlink{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 20px;
+    left: -11px;
+    font-weight: lighter;
+    
+}
+.conctno:hover{
+    background-color: #005477;
+}
+.email:hover{
+    background-color: #005477;
+}
+
+.linkedin:hover{
+    background-color: #005477;
+}
